@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(231, 139, 88);
+    width: 900px;
+    margin: 0 auto;
+}
+
+.toptext{
+    text-align: center;
+    font-family: serif;
+}
+
+.topPic {
+    text-align: center;
+}
+
+.intro {
+    
+}

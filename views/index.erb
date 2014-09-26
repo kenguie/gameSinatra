@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Ruby Game in Sinatra</title>
+    <!---------------Styles ------------------->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!----------------JS-----------------------> 
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="js/app.js"></script>
+    
+</head>
+
+<body>
+  
+  <div class="toptext">
+    <h1> Knight vs Dragon! Who will win? </h1>
+  </div>
+    
+  <div class="topPic">
+    <img src="images/battle.jpg" alt="picture of a knight verses a dragon">
+  </div>
+
+  <div class="intro">
+    <h3>Simple life as it may be, you are a knight enjoying your time on a wonderous and colourful field.  Taking in the environment around you, you see a group of children playing by the cliffs.  You call out to them but they don't hear you.  All of the sudden, a dragon flys in out of nowhere.  The children finally realize what's going on and run in your direction!  You head toward them, tell them to keep running and then brace yourself for the dragon attack coming! Get ready for battle!!!!! </h3>
+  </div>
+  
+  <div class="battleInfo">
+    <h2> Your HP: <%= @my_knight.hp %> </h2>
+    <h2> Dragon HP: <%= @my_dragon.hp %> </h2>
+    
+    <h1> <%= @results %> </h1>
+  </div>
+
+
+</body>
+</html>
+
